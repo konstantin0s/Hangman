@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+
+import './AppFooter.css';
+
+class AppFooter extends Component {
+  render() {
+      return (
+        <div className="App-footer">
+
+
+
+          <h5>Made with <span style={{color: 'red'}}>&#9829;</span> by <a
+              target="_blank"
+              href="">Constantin
+            </a> using React :) 
+          </h5>
+        </div>
+      );
+    }
+  }
+
+  export default AppFooter;
